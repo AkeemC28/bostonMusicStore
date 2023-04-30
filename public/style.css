@@ -1,0 +1,111 @@
+body{
+  /* padding-top:40px; */
+  word-wrap:break-word;
+  background: url('/img/music-store3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.page-header {
+  border-bottom: none;
+}
+
+img{
+  height: 200px;
+  opacity: 1.0;
+}
+.itemsToSell{
+  padding-top:50px;
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+.instr{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+button{
+  width: 30%;
+  margin-top: 10px;
+  font-family: "Bangers",sans-serif;
+  color: #FFA500;
+  background-color: rgb(222, 116, 68);
+  border-radius: 5px;
+  border: 1px solid #FFA500;
+  padding: 4px;
+}
+html{
+  font-size: 62.5%;
+  font-family: "Bangers",sans-serif;
+}
+h1{
+  font-family: "Bangers",sans-serif;
+  color: #FFA500;
+  text-shadow:4px 4px rgb(222, 116, 68);
+  font-size: 8rem;
+}
+.jumbotron{
+  background: #FFD68A;
+}
+.jumbotron h1{
+  font-family: "Bangers",sans-serif;
+  color: #FFA500;
+  text-shadow:4px 4px rgb(222, 116, 68);
+  font-size: 8rem;
+}
+.jumbotron p{
+  font-family: "Bangers",sans-serif;
+  color: #FFA500;
+  text-shadow:1px 1px rgb(222, 116, 68);
+  font-size: 2rem;
+}
+.jumbotron img{
+  border: 4px solid #FFA500;
+  border-radius: 8px;
+  padding: 2px;
+}
+.btn-default{
+  font-family: "Bangers",sans-serif;
+  color: #FFA500;
+  background-color: rgb(222, 116, 68);
+  border-radius: 5px;
+  border: 1px solid #FFA500;
+}
+.sales{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.sales span{
+  font-family: "Bangers",sans-serif;
+  color: #FFA500;
+  text-shadow:4px 4px rgb(222, 116, 68);
+  font-size: 4rem;
+}
+.sales,h2{
+  font-family: "Bangers",sans-serif;
+  color: #FFA500;
+  text-shadow:4px 4px rgb(222, 116, 68);
+  font-size: 4rem;
+}
+.review{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  margin: 100px 0 0 0 ;
+}
+.review span{
+  color: #FFA500;
+  font-size: 2rem;
+}
+.col-sm-6{
+  text-align: center;
+}
+p{
+  color: #FFA500;
+  font-size: 2rem;
+  text-shadow: .5px .5px #FFD68A;
+}

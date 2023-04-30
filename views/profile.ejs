@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <title>Boston Music Store</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Asset&family=Bangers&family=Bodoni+Moda:opsz@6..96&family=Cherry+Cream+Soda&family=Chicle&family=Creepster&family=Delicious+Handrawn&family=Domine&family=Fjalla+One&family=Gelasio&family=Germania+One&family=Lato:ital,wght@0,400;1,300&family=Orbitron&family=Oswald&family=Oxygen:wght@700&family=Press+Start+2P&family=Questrial&family=Roboto&family=Sedgwick+Ave&family=Tilt+Warp&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="page-header text-center">
+      <h1> Boston Music Store</h1>
+      <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row"></div>
+
+    <div class="itemsToSell">
+      <div class="instr1 instr"><img src="img/Juno.webp" alt=""><button type="submit" class="btn1">$249</button></div>
+      <div class="instr2 instr"><img src="img/grandmother.webp" alt=""><button type="submit" class="btn2">$300</button>
+      </div>
+      <div class="instr3 instr"><img src="img/Jupiter.jpeg" alt=""><button type="submit" class="btn3">$400</button>
+      </div>
+    </div>
+
+    <div class="sales">
+      <h2>Sales For The Day: <span class="saleOfTheDay"><%= salesOfTheDay %></span></h2>
+    </div>
+
+    <div class="review">
+      <!-- <h2>Reviews</h2> -->
+      <ul class="messages">
+        <% for(var i=0; i<messages.length; i++) { %>
+          <li class="message">
+            <span><%= messages[i].msg %></span>
+            <span><i class="fa-light fa-trash"></i></span>
+          </li>
+        <% } %>
+      </ul>
+
+      <!-- <% if (user.local.email) { %>
+      <form action="/messages" method="POST">
+        <input type="text" placeholder="message" name="msg">
+        <button type="submit">Submit</button>
+      </form>
+      <% } %> -->
+
+      <script src="main.js"></script>
+    </div>
+  </div>
+
+ 
